@@ -180,6 +180,16 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Entities\ActiveTest.cs" />
+    <Compile Include="Models\Entities\Answer.cs" />
+    <Compile Include="Models\Entities\IdKeyClass.cs" />
+    <Compile Include="Models\Entities\Question.cs" />
+    <Compile Include="Models\Entities\RightAnswer.cs" />
+    <Compile Include="Models\Entities\Test.cs" />
+    <Compile Include="Models\Entities\TestQuestion.cs" />
+    <Compile Include="Models\Entities\TestType.cs" />
+    <Compile Include="Models\Entities\UserTest.cs" />
+    <Compile Include="Models\Entities\UserTestAnswer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -244,7 +254,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\Entities\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
